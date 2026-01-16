@@ -2,7 +2,7 @@
   "$schema": "https://dl.viam.dev/module.schema.json",
   "module_id": "erh:viam-i2c-utils",
   "visibility": "public",
-  "url": "",
+  "url": "https://github.com/erh/viam-i2c-utils",
   "description": "Modular switch component: i2c-on-off",
   "models": [
     {
