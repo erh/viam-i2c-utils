@@ -1,0 +1,28 @@
+{
+  "$schema": "https://dl.viam.dev/module.schema.json",
+  "module_id": "erh:viam-i2c-utils",
+  "visibility": "public",
+  "url": "",
+  "description": "Modular switch component: i2c-on-off",
+  "models": [
+    {
+      "api": "rdk:component:switch",
+      "model": "erh:viam-i2c-utils:i2c-on-off",
+      "short_description": "I2C-controlled on/off switch using i2cset",
+      "markdown_link": "README.md#model-erhviam-i2c-utilsi2c-on-off"
+    }
+  ],
+  "applications": null,
+  "markdown_link": "README.md",
+  "entrypoint": "bin/viam-i2c-utils",
+  "first_run": "",
+  "build": {
+    "build": "make module.tar.gz",
+    "setup": "make setup",
+    "path": "module.tar.gz",
+    "arch": [
+      "linux/amd64",
+      "linux/arm64"
+    ]
+  }
+}
